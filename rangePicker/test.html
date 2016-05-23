@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/datepicker.css" type="text/css" />
+    <link rel="stylesheet" media="screen" type="text/css" href="css/layout.css" />
+    <title>DatePicker - jQuery plugin</title>
+	<script type="text/javascript" src="../standart/js/jquery-2.1.4.min.js"></script>
+	<script type="text/javascript" src="js/datepicker.js"></script>
+	 <script type="text/javascript" src="js/eye.js"></script>
+    <script type="text/javascript" src="js/utils.js"></script>
+    <script type="text/javascript" src="js/layout.js?ver=1.0.2"></script>
+</head>
+<body>
+
+                <div id="widget">
+					<div id="widgetField">
+						<span></span>
+						<a id="toch" href="#">Select date range</a>
+					</div>
+					<div id="widgetCalendar">
+					</div>
+				</div>
+</body>
+<script type="text/javascript">
+    $('#toch').click(function(){
+    var count = $('.datepickerGoPrev').length;
+    if( count > 0){$('.datepickerGoPrev:last').css("display","none");}
+    var count = $('.datepickerGoNext').length;
+    if( count > 0){$('.datepickerGoNext:first').css("display","none");}
+    });
+</script>
+<script type="text/javascript" src="js/js.js"></script>
+</html>

@@ -1,0 +1,139 @@
+.modal__title{
+    text-align: center;
+    font-size: 17px;
+    padding: 45px;
+    text-transform: uppercase;
+}
+.modal__title__mid__size{ font-size: 16px;text-align: center; padding: 35px;}
+
+
+.modal__hostes__sizes{
+    width: 850px;
+}
+.modal__hostes__sizes__sm{
+    width: 600px;
+}
+
+.modal__padding__lr{
+    padding: 0px 100px;
+}
+
+
+
+
+.modal__edit__table__menu__actions button{
+    margin-bottom: 3px;
+}
+
+
+
+/*
+*MODAL ADD
+*
+*/
+.modal__add__table__preview{
+    width: 200px;
+    height: 200px;
+    border-radius: 3px;
+    border: 1px solid #b1b1b1;
+    margin:  0px auto 20px;
+    padding: 50px;
+    position: relative;
+}
+
+.modal__add__table__preview__insider{
+    width: 100px;
+    height: 100px;
+    position: relative;
+
+}
+
+.modal__add__table__preview__insider > div{
+    position: absolute;
+}
+
+.modal__add__type__table{
+    text-align: center;
+}
+
+
+
+.data__object__modal__AddElem{ text-align: center;}
+.data__object__modal__AddElem li{
+    display: inline-block;
+    width: 110px;
+    padding: 3px;
+    vertical-align: top;
+    text-align: center;
+}
+
+.modal__edit__Table__placeholder li{
+    display: inline-block;
+    width: 60px;
+    padding: 3px;
+    vertical-align: top;
+    text-align: center;
+}
+
+
+
+
+.modal__edit__Table__placeholder li p{ font-size: 10px;}
+.data__object__modal__AddElem li .data__object__placeholder{
+    width: 100px;
+    height: 100px;
+    border: 1px solid grey;
+    border-radius: 3px;
+    /*display: table-cell;
+    vertical-align: middle;
+    text-align: center;*/
+    cursor: pointer;
+    text-align: left !important;
+    position: relative;
+
+}
+.data__object__modal__AddElem:not(.tableElement) li .data__object__placeholder{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center !important;
+}
+.data__object__modal__AddElem:not(.tableElement) li .data__object__placeholder > div{
+    position: relative !important;
+}
+
+
+.data__object__modal__AddElem li .data__object__placeholder > div{
+    position: absolute;
+}
+
+.data__object__modal__AddElem li .data__object__placeholder.custom__nocentred__element{
+  /*  vertical-align: top;
+    text-align: left;
+*/
+}
+
+
+.data__components__placeholder {
+    width: 50px;
+    height: 50px;
+    border: 1px solid grey;
+    border-radius: 3px;
+    display: block;
+    cursor: pointer;
+}
+
+.data__object__modal__AddElem li .data__object__placeholder:hover, .data__components__placeholder:hover,
+.data__object__modal__AddElem li .data__object__placeholder.active, .data__components__placeholder:active{
+    border: 1px solid #00bbe7;
+}
+
+.data__object__modal__AddElem li p{
+    margin-top: 10px;
+    font-size: 13px;
+}
+
+
+.modal__form__holder{
+    padding: 0px 125px 50px;
+    
+}

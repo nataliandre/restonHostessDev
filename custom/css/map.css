@@ -1,0 +1,196 @@
+.map__book__info{
+    width: 230px;
+    column-count:2;
+}
+
+.map__book__info li{
+    display: inline-block;
+    width: 110px;
+    vertical-align: middle;
+    font-size: 11px;
+}
+
+.map__book__info li:before{
+    width: 10px;
+    height: 10px;
+    background: grey;
+    content: '';
+    border-radius: 2px;
+    display: inline-block;   
+}
+
+.map__book__info li.gn:before{
+    background: #2fc432;
+}
+
+.map__book__info li.r:before{
+    background: #ff5050;
+}
+.map__book__info li.gr:before{
+    background: #4c5a6d;
+}
+
+.map__book__info li.y:before{
+    background: #ff9000;
+}
+
+
+.map__top__menu{
+    padding: 0px 0px 16px 50px;
+    position: relative;
+}
+
+.map__top__menu__edit__element{
+    position: absolute;
+    top: 40px;
+    left: 50px;
+    background: #fff;
+    border: 1px solid grey;
+    border-radius: 3px;
+    padding: 5px;
+    z-index: 100;
+}
+
+.map__top__menu li p{
+    margin-bottom: 10px;
+    font-size: 11px;
+}
+
+.map__top__menu li{
+    display: inline-block;
+    vertical-align: bottom;
+    margin-right: 5px;
+    -webkit-user-select: none !important;
+    -moz-user-select: none !important;
+    user-select: none !important;
+}
+.map__top__menu li label{
+    font-size: 13px;
+}
+
+.map__float__buttons__edit{
+    display: none;
+    position: absolute;
+    background: #fff;
+    padding: 10px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    width: 200px;
+    top: 0px;
+    left: 0px;
+}
+
+
+
+.map__add__plan__type__holder{
+    position:relative;
+}
+.map__add__plan__types{
+    position: absolute;
+    bottom: 42px;
+    left: 0px;
+    width: 100%;
+    background: #fff;
+    border: 1px solid grey;
+}
+.map__add__plan__types input{
+    width: 100%;
+}
+
+.map__add__plan__types ul{
+    margin: 0px;
+    padding: 0px;
+}
+
+.map__add__plan__types ul li{
+    padding: 7px 15px;
+    display: block;
+    margin: 0px;
+}
+
+.map__add__plan__types ul li:hover{
+    background: #E0E0E0;
+}
+
+
+/**
+* floors menu
+*/
+.map__floor__menu{
+    text-align: center;
+    margin: 10px;
+    font-size: 0px;
+}
+
+.map__floor__menu li{
+    display: inline-block;
+    margin-left: 3px;
+    font-size: 15px;
+    margin-bottom: 3px;
+}
+
+
+
+/**
+*special buttons
+*/
+
+
+.btn-green-spec{
+    text-align: center;
+    padding: 12px;
+    text-transform: uppercase;
+    background: #479000;
+    background: -moz-linear-gradient(top, #479000 0%, #3b7800 100%);
+    background: -webkit-linear-gradient(top, #479000 0%, #3b7800 100%);
+    background: -o-linear-gradient(top, #479000 0%, #3b7800 100%);
+    background: -ms-linear-gradient(top, #479000 0%, #3b7800 100%);
+    background: linear-gradient(to bottom, #479000 0%, #3b7800 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#67cf00', endColorstr='#54a900', GradientType=0 );
+    width: 100px;
+    font-size: 15px;
+    display: inline-block;
+    color: #fff;
+    font-family: MuseoSansCyrl_500;
+    border: 0px;
+}
+
+
+.btn-green-spec.active{
+    background: rgba(103,207,0,1);
+    background: -moz-linear-gradient(top, rgba(103,207,0,1) 0%, rgba(84,169,0,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(103,207,0,1)), color-stop(100%, rgba(84,169,0,1)));
+    background: -webkit-linear-gradient(top, rgba(103,207,0,1) 0%, rgba(84,169,0,1) 100%);
+    background: -o-linear-gradient(top, rgba(103,207,0,1) 0%, rgba(84,169,0,1) 100%);
+    background: -ms-linear-gradient(top, rgba(103,207,0,1) 0%, rgba(84,169,0,1) 100%);
+    background: linear-gradient(to bottom, rgba(103,207,0,1) 0%, rgba(84,169,0,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#67cf00', endColorstr='#54a900', GradientType=0 );
+}
+
+.btn-grey-spec{
+    text-align: center;
+    background: #515a60;
+    background: -moz-linear-gradient(top, #60696f 0%, #515a60  100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, #60696f), color-stop(100%, #515a60 ));
+    background: -webkit-linear-gradient(top,#60696f 0%, #515a60  100%);
+    background: -o-linear-gradient(top, #60696f 0%, #515a60  100%);
+    background: -ms-linear-gradient(top, #60696f 0%, #515a60  100%);
+    background: linear-gradient(to bottom, #60696f 0%, #515a60  100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#60696f', endColorstr='#515a60', GradientType=0 );
+    color: #fff;
+    padding: 12px;
+    border: 0px;
+    text-transform: uppercase;
+    font-family: MuseoSansCyrl_500;
+    width: 100px;
+    font-size: 15px;
+    display: inline-block;
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,7 @@
+.icon__plus{
+    display: inline-block;
+    vertical-align: sub;
+    height: 18px;
+    width: 18px;
+    background: url(../../img/add.png);
+}
